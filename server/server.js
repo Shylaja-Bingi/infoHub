@@ -13,10 +13,6 @@ const PORT = process.env.PORT;
 
 // ---------- WEATHER API ----------
 const OPENWEATHER_API_KEY = process.env.OPENWEATHER_API_KEY;
-console.log("Weather API Key:", OPENWEATHER_API_KEY);
-
-console.log("Server directory:", process.cwd());
-console.log("Environment variables:", process.env.OPENWEATHER_API_KEY);
 
 
 app.get("/weather", async (req, res) => {
